@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="pdfngreport-properties" value="C:\Users\dsingh\eclipse-workspace\Your_Logo\src\main\java\Resources\pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="Selenium_Demo.Your_Logo.Listeners"/>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Selenium_Demo.Your_Logo.homePageTest">
+        <methods>
+          <include name="TC_HOME_01_Banner_Image"/>
+          <include name="TC_HOME_02_Contact_Us_Button"/>
+          <include name="TC_HOME_11_Shopping_Cart_2"/>
+          <include name="TC_HOME_08_Add_to_cart"/>
+          <include name="driverInitialize"/>
+          <include name="TC_HOME_03_Sign_In_Button"/>
+          <include name="TC_HOME_09_Shopping_Cart_Product"/>
+          <include name="TC_HOME_04_Brand_Logo"/>
+          <include name="TC_HOME_06_Search_Valid"/>
+          <include name="TC_HOME_00_Browser_Invoking"/>
+          <include name="TC_HOME_05_Search_Invalid"/>
+          <include name="TC_HOME_10_Shopping_Cart"/>
+          <include name="TC_HOME_07_Shopping_Cart_Empty"/>
+          <include name="browserClosing"/>
+        </methods>
+      </class> <!-- Selenium_Demo.Your_Logo.homePageTest -->
+      <class name="Selenium_Demo.Your_Logo.shippingPageTest">
+        <methods>
+          <include name="browserClosing"/>
+          <include name="TC_SHIPPING_03_Proceed_To_Checkout"/>
+          <include name="TC_SHIPPING_01_Error_Prompt"/>
+          <include name="TC_SHIPPING_02_terms_Of_Services_Checkbox"/>
+          <include name="neccessarySteps"/>
+        </methods>
+      </class> <!-- Selenium_Demo.Your_Logo.shippingPageTest -->
+      <class name="Selenium_Demo.Your_Logo.signInPageTest">
+        <methods>
+          <include name="TC_SIGN_IN_01_Create_Account_Invalid"/>
+          <include name="TC_SIGN_IN_03_Create_Account_Valid"/>
+          <include name="browserClosing"/>
+          <include name="driverInitialize"/>
+          <include name="TC_SIGN_IN_02_Create_Account_Invalid_Null_Data"/>
+        </methods>
+      </class> <!-- Selenium_Demo.Your_Logo.signInPageTest -->
+      <class name="Selenium_Demo.Your_Logo.paymentPageTest">
+        <methods>
+          <include name="TC_PAYMENT_01_Payment_Method"/>
+          <include name="TC_PAYMENT_02_Order_Confirmation"/>
+          <include name="neccessarySteps"/>
+          <include name="TC_PAYMENT_03_Back_To_Orders"/>
+        </methods>
+      </class> <!-- Selenium_Demo.Your_Logo.paymentPageTest -->
+      <class name="Selenium_Demo.Your_Logo.createAccountPageTest">
+        <methods>
+          <include name="TC_CREATE_ACCOUNT_04_First_Name_Invalid"/>
+          <include name="TC_CREATE_ACCOUNT_07_First_Name_Valid"/>
+          <include name="browserClosing"/>
+          <include name="TC_CREATE_ACCOUNT_16_Date_Selection"/>
+          <include name="driverInitialize"/>
+          <include name="TC_CREATE_ACCOUNT_01_Create_Account_Invalid"/>
+          <include name="TC_CREATE_ACCOUNT_06_First_Name_Invalid2"/>
+          <include name="TC_CREATE_ACCOUNT_05_First_Name_Invalid1"/>
+          <include name="TC_CREATE_ACCOUNT_29_Account_Create_E2E"/>
+        </methods>
+      </class> <!-- Selenium_Demo.Your_Logo.createAccountPageTest -->
+      <class name="Selenium_Demo.Your_Logo.shoppingCartPageTest">
+        <methods>
+          <include name="TC_SHOPPING_CART_04_Proceed_To_Checkout"/>
+          <include name="TC_SHOPPING_CART_01_Product_Quantity_Increase"/>
+          <include name="TC_SHOPPING_CART_02_Product_Quantity_Reduce"/>
+          <include name="TC_SHOPPING_CART_03_Delete_Product"/>
+          <include name="browserClosing"/>
+          <include name="driverInitialize"/>
+        </methods>
+      </class> <!-- Selenium_Demo.Your_Logo.shoppingCartPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
