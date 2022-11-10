@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-13T13:26:37 IST" name="Surefire suite" finished-at="2022-04-13T13:26:37 IST" duration-ms="27">
+    <groups>
+    </groups>
+    <test started-at="2022-04-13T13:26:37 IST" name="Surefire test" finished-at="2022-04-13T13:26:37 IST" duration-ms="27">
+      <class name="Automation_practice.selenium_practice.appiumTest">
+        <test-method signature="appiumTestCase1()[pri:0, instance:Automation_practice.selenium_practice.appiumTest@671a5887]" started-at="2022-04-13T13:26:37 IST" name="appiumTestCase1" finished-at="2022-04-13T13:26:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumTestCase1 -->
+        <test-method signature="appiumTestCase2()[pri:0, instance:Automation_practice.selenium_practice.appiumTest@671a5887]" started-at="2022-04-13T13:26:37 IST" name="appiumTestCase2" finished-at="2022-04-13T13:26:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumTestCase2 -->
+      </class> <!-- Automation_practice.selenium_practice.appiumTest -->
+      <class name="Automation_practice.selenium_practice.restassuredTest">
+        <test-method signature="restassuredTestCase1()[pri:0, instance:Automation_practice.selenium_practice.restassuredTest@7e9131d5]" started-at="2022-04-13T13:26:37 IST" name="restassuredTestCase1" finished-at="2022-04-13T13:26:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restassuredTestCase1 -->
+        <test-method signature="restassuredTestCase2()[pri:0, instance:Automation_practice.selenium_practice.restassuredTest@7e9131d5]" started-at="2022-04-13T13:26:37 IST" name="restassuredTestCase2" finished-at="2022-04-13T13:26:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restassuredTestCase2 -->
+      </class> <!-- Automation_practice.selenium_practice.restassuredTest -->
+      <class name="Automation_practice.selenium_practice.seleniumTest">
+        <test-method signature="seleniumTestCase1()[pri:0, instance:Automation_practice.selenium_practice.seleniumTest@2e1d27ba]" started-at="2022-04-13T13:26:37 IST" name="seleniumTestCase1" finished-at="2022-04-13T13:26:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumTestCase1 -->
+        <test-method signature="seleniumTestCase2()[pri:0, instance:Automation_practice.selenium_practice.seleniumTest@2e1d27ba]" started-at="2022-04-13T13:26:37 IST" name="seleniumTestCase2" finished-at="2022-04-13T13:26:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumTestCase2 -->
+      </class> <!-- Automation_practice.selenium_practice.seleniumTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
